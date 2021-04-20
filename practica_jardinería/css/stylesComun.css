@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+main{
+
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+
+
+header, footer{
+    width: 100%;
+    margin: 0 auto;
+}
+
+header,footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+header{
+
+    border-bottom: 1px solid #e8e9eb;
+    background: #fff;
+    
+}
+
+header .logo{
+    width: 125px;
+
+}
+
+header .logo img{
+
+    width: 100%;
+}
+
+header nav ul{
+
+    width: 100%;
+    list-style: none;
+}
+
+header nav ul li{
+
+    float: left;
+    padding: 15px;
+}
+
+header nav ul li a{
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    color: #000;
+    border-bottom: 1px solid rgba(57, 127, 62, 1);
+    
+}
+
+header nav ul li a:hover {
+    
+    background: rgba(57, 127, 62, 0.6);
+    color: #fff;
+}
+
+footer{
+
+    background: #020202;
+    color: #fff;
+
+}
+
+footer .redesSociales{
+
+    width: 60px;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer div img{
+
+    width: 100%;
+}

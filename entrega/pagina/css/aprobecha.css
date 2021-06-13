@@ -1,0 +1,27 @@
+.container{
+    max-width: 900px;
+}
+
+
+
+.carousel-inner {
+    max-height:39rem;
+}
+
+img{
+    max-height:30rem;
+    width:50%;
+}
+
+.fuentes a{
+    text-decoration: none;
+    color: black;
+}
+
+#aprobecha{
+    padding-top: 50px;
+}
+
+#correo{
+    padding-bottom: 50px;
+}

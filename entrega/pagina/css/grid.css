@@ -1,0 +1,24 @@
+img{
+    width: 400px;
+}
+
+.container{
+    max-width: 900px;
+}
+
+#img-4{
+    width: 400px;
+}
+
+.fuentes a{
+    text-decoration: none;
+    color: black;
+}
+
+#aprobecha{
+    padding-top: 50px;
+}
+
+#correo{
+    padding-bottom: 50px;
+}
